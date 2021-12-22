@@ -401,3 +401,4 @@ C:\Users\doihebunandu\Desktop\.NetCore\Parky\ParkyWeb\bin\Debug\net5.0\zh-Hant\M
 C:\Users\doihebunandu\Desktop\.NetCore\Parky\ParkyWeb\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\doihebunandu\Desktop\.NetCore\Parky\ParkyWeb\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\doihebunandu\Desktop\.NetCore\Parky\ParkyWeb\obj\Debug\net5.0\Razor\Views\NationalPark\Index.cshtml.g.cs
+C:\Users\doihebunandu\Desktop\.NetCore\Parky\ParkyWeb\obj\Debug\net5.0\Razor\Views\NationalPark\UpSert.cshtml.g.cs
