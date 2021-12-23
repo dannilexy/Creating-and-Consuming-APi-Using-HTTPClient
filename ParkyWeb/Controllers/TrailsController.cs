@@ -34,14 +34,15 @@ namespace ParkyWeb.Controllers
                 {
                     Text = i.Name,
                     Value = i.Id.ToString()
-                })
+                }),
+                Trail = new Trail()
             };
 
             if (id==null)
             {
                 return View(trailsVM);
             }
-            trailsVM.Trail = await _trailRepo.GetAsync(SD.TrailApiPath, id.Value);
+            trailsVM.Trail = await _trailRepo.GetAsync(SD.TrailApiPath + "GetTrail/", id.Value);
             if (trailsVM.Trail == null)
             {
                 NotFound();
@@ -66,7 +67,18 @@ namespace ParkyWeb.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(obj);
+            IEnumerable<NationalPark> npList = await _national.GetAllAsync(SD.NationalParkApiPath);
+
+            TrailsVM trailsVM = new TrailsVM()
+            {
+                NationalParkList = npList.Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+                Trail = new Trail()
+            };
+            return View(trailsVM);
         }
 
         public async Task<IActionResult> GetAllTrail()
