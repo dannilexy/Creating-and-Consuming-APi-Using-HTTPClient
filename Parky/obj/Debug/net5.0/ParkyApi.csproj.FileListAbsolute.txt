@@ -26,7 +26,6 @@ C:\Users\doihebunandu\Desktop\.NetCore\Parky\Parky\bin\Debug\net5.0\Microsoft.Id
 C:\Users\doihebunandu\Desktop\.NetCore\Parky\Parky\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\doihebunandu\Desktop\.NetCore\Parky\Parky\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\doihebunandu\Desktop\.NetCore\Parky\Parky\bin\Debug\net5.0\Microsoft.OpenApi.dll
-C:\Users\doihebunandu\Desktop\.NetCore\Parky\Parky\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\doihebunandu\Desktop\.NetCore\Parky\Parky\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\doihebunandu\Desktop\.NetCore\Parky\Parky\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\doihebunandu\Desktop\.NetCore\Parky\Parky\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -61,3 +60,5 @@ C:\Users\doihebunandu\Desktop\.NetCore\Parky\Parky\obj\Debug\net5.0\ParkyApi.dll
 C:\Users\doihebunandu\Desktop\.NetCore\Parky\Parky\obj\Debug\net5.0\ref\ParkyApi.dll
 C:\Users\doihebunandu\Desktop\.NetCore\Parky\Parky\obj\Debug\net5.0\ParkyApi.pdb
 C:\Users\doihebunandu\Desktop\.NetCore\Parky\Parky\obj\Debug\net5.0\ParkyApi.genruntimeconfig.cache
+C:\Users\doihebunandu\Desktop\.NetCore\Parky\Parky\obj\Debug\net5.0\ParkyApi.csproj.AssemblyReference.cache
+C:\Users\doihebunandu\Desktop\.NetCore\Parky\Parky\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

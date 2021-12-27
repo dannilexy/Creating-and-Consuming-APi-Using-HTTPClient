@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ParkyApi.Models;
@@ -48,6 +49,7 @@ namespace ParkyApi.Controllers
         [HttpGet("GetTrailsByNationalParkId/{npId:int}")]
         [ProducesResponseType(200, Type = typeof(List<TrailDto>))]
         [ProducesResponseType(400)]
+        [Authorize(Roles ="Admin")]
         public IActionResult GetTrailsByNationalParkId(int npId)
         {
             var trails = _trRepo.GetTrailsInNationalPark(npId);
