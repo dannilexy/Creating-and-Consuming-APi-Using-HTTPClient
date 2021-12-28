@@ -32,6 +32,7 @@ namespace ParkyApi.Controllers
         [HttpGet]
         [ProducesResponseType(200, Type =typeof(List<NationalParkDto>))]
         [ProducesResponseType(400)]
+        [AllowAnonymous]
         public IActionResult GetNationalPacks()
         {
             var nationalParks = _np.GetNamtionalParks();

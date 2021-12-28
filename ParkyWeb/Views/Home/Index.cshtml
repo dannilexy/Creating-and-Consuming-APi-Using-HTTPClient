@@ -1,7 +1,9 @@
 ﻿@model ParkyWeb.Models.ViewModel.IndexVM
 <div class="container">
     <div class="row pb-4 backgroundWhite">
-        @foreach (var nationalPark in Model.NationalParkList)
+        @if (Model.NationalParkList != null)
+       {
+                   @foreach (var nationalPark in Model.NationalParkList)
         {
             <div class="container backgroundWhite pb-4">
                 <div class="card border">
@@ -67,5 +69,7 @@
                 </div>
             </div>
         }
+       }
+
     </div>
 </div>
